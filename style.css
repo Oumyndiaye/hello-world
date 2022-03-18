@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: space-around;
+border: 3px solid blueviolet;
+background-color:#f5f5f5;
+overflow: hidden;
+}
+.btn_class{
+    display: flex;
+    width: 60vw;
+    height: 14vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}  
+ button{ 
+  width:12vw;
+    height: 5vh;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+}
+button:nth-child(1){
+    background-color: #14a03a;
+    color: white;
+}
+button:nth-child(2){
+background-color:#ffc107 ;
+color: white;
+
+}
+button:nth-child(3){
+background-color: #bd2130;
+color: white;
+
+}
+button:nth-child(4){
+background-color:#17a2b8 ;
+color: white;
+}
+#mon_projet{   
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: center;
+}
+.btn_succes{
+    background-color:#14a03a ;
+    color: white;
+    width:12vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+}
+.btn_warning{
+background-color:#ffc107 ;
+color: white;
+width:12vw;
+height: 5vh;
+border-radius: 10px;
+font-weight: bold;
+font-size: 16px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
+}
+.btn_info{
+background-color:#17a2b8 ;
+color: white;
+width:12vw;
+height: 5vh;
+border-radius: 10px;
+font-weight: bold;
+font-size: 16px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
+}
+.btn_danger{
+background-color:#bd2130 ;
+color: white;
+width:12vw;
+height: 5vh;
+border-radius: 10px;
+font-weight: bold;
+font-size: 16px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
+}
