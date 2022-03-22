@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    background-image:url(img/back2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#demo{
+  text-align: center;
+  margin-top: 0px;
+  font-size: 60px;
+} 
+#compte{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+

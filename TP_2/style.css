@@ -20,6 +20,7 @@
 --danger: #dc3545;
 --light: #f8f9fa;
 --dark: #343a40;
+--sidebar-color:#343a40;
 }
 .admin img{
     height: 30px;
@@ -58,15 +59,20 @@ body{
     color: black;
     padding: 0;
     margin: 0;
-/*     overflow: hidden;
- */}
+ }
+  .dark{
+     width: 50%;
+ } 
+ .dark .text{
+     opacity: 0;
+ }
+
 .div_container{
    background-color: #373d42;
     display: flex;
     flex-direction: column;
     width: 20%;
     color: white;
-    margin-left: 20%;
 }
 #search{
     background-color: #373d42;
@@ -90,14 +96,60 @@ ul li {
     list-style-type: none;
     font-size: 25px;
    margin:0 0 0 30px;
-   flex:4
- }
+
+  }
  ul li i{
     flex:1;
+    border:2px solid red;
  }
  ul li p{
-    flex:3;
+    flex:4;
+    border:2px solid yellow;
  }
+ ul li span{
+     flex:2 ;
+     border:2px solid gray;
+
+ }
+.type{
+     flex: 1;
+     border:2px solid blue;
+ }
+ .toogle{
+  height: 25px;
+    width: 25px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    font-size:22px ;
+    color: var(--sidebar-color);
+ }
+ /* .inv{
+     display: none;
+ } */
+ .vis{
+    display: flex;
+    align-items: center;
+      list-style-type: none;
+      font-size: 25px;
+     margin:0 0 0 30px;
+ }
+ .corps{
+     display: flex;
+ }
+ ul li .red{
+     background-color: red;
+     flex: 1;
+  }
+ ul li .blue{
+     background-color: var(--blue);
+     flex: 1;
+  }
+   .id_sm{
+       opacity: 0;
+   }
  
  
  
